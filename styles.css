@@ -1,0 +1,218 @@
+body div {
+  display: block;
+}
+body #nav {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  right: 0;
+}
+body #nav .bar {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  padding-left: 8px;
+  min-width: 0;
+}
+body #nav .bar .ga {
+  height: 48px;
+  vertical-align: middle;
+  align-items: center;
+  white-space: nowrap;
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+  padding-right: 15px;
+  position: relative;
+}
+body #nav .bar .ga .gb_ad {
+  margin-bottom: 0px;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 48px;
+  overflow: hidden;
+  padding-left: 16px;
+  position: relative;
+  text-overflow: ellipsis;
+  top: 2px;
+  flex: 1 1 auto;
+}
+body #nav .bar .gb {
+  box-sizing: border-box;
+  height: 48px;
+  line-height: normal;
+  padding: 0 4px;
+  padding-left: 0;
+  padding-right: 5%;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+}
+body #nav .bar .gb .gc {
+  font-family: arial, sans-serif;
+  line-height: normal;
+  padding-right: 15px;
+  display: block;
+}
+body #nav .bar .gb .gc .gd {
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+  line-height: 24px;
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+  color: black;
+}
+body #nav .bar .gb .gc .gd a {
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-decoration: none;
+  line-height: 24px;
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+  color: black;
+}
+body #nav .bar .gb .gc .gd a img {
+  transition: all 0.5s ease-in-out;
+}
+body #nav .bar .gb .gc .gd a p {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+body #nav .bar .gb .gc .gd a:hover {
+  opacity: 0.85;
+  text-decoration: underline;
+}
+body #nav .bar .gb .gc .gd a:hover p {
+  display: block;
+  transition: all 0.5s ease-in-out;
+}
+body #nav .bar .gb .gc .gd a:hover img {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+body #ntp-contents {
+  top: 147px;
+  display: block;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  bottom: 20px;
+}
+body #ntp-contents #logo {
+  flex-shrink: 0;
+  min-height: fit-content;
+  position: relative;
+}
+body #ntp-contents #logo-image {
+  display: block;
+  background-image: url("https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 92px;
+  left: calc(50% - 280px/2);
+  position: absolute;
+  width: 300px;
+}
+body #ntp-contents #logo-image .logo-subtext {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 215px;
+  position: relative;
+  top: 76px;
+  white-space: nowrap;
+}
+body #realbox-container {
+  margin: 0 auto 0 auto;
+  top: 120px;
+  position: absolute;
+  min-width: 410px;
+  width: 560px;
+  left: calc(50% - 540px/2);
+  flex-shrink: 0;
+}
+body #realbox-container #riw {
+  background-color: #e1e1e1;
+  width: 560px;
+  height: 44px;
+  position: absolute;
+  font-size: 18px;
+  border-color: black;
+  border-bottom-left-radius: calc(40px/2);
+  border-bottom-right-radius: calc(40px/2);
+  border-top-left-radius: calc(40px/2);
+  border-top-right-radius: calc(40px/2);
+  z-index: 0;
+}
+body #realbox-container #riw form input[type=text] {
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 470px;
+  height: 37px;
+  position: absolute;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 17px;
+  color: black;
+  z-index: 1;
+}
+body #realbox-container #riw #Submit {
+  background-color: #e1e1e1;
+  left: calc(50% + 480px/2);
+  margin-top: 7px;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  font-size: 16px;
+  border: none;
+  background-image: url("search.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 2;
+}
+body #realbox-container #riw #GS {
+  background-color: #e1e1e1;
+  left: calc(50% - 400px/2);
+  margin-top: 80px;
+  height: 40px;
+  width: 160px;
+  position: relative;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  border-bottom-left-radius: calc(20px/2);
+  border-bottom-right-radius: calc(20px/2);
+  border-top-left-radius: calc(20px/2);
+  border-top-right-radius: calc(20px/2);
+}
+body #realbox-container #riw #IFL {
+  background-color: #e1e1e1;
+  left: calc(50% - 250px/2);
+  margin-top: 30px;
+  height: 40px;
+  width: 160px;
+  position: relative;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  border-bottom-left-radius: calc(20px/2);
+  border-bottom-right-radius: calc(20px/2);
+  border-top-left-radius: calc(20px/2);
+  border-top-right-radius: calc(20px/2);
+}
+body #realbox-container #riw #GS:hover, body #realbox-container #riw #IFL:hover {
+  background-color: #c8c8c8;
+}
+
+/*# sourceMappingURL=styles.css.map */

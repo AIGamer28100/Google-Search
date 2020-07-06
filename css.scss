@@ -1,0 +1,255 @@
+body {
+
+    div {
+        display: block;
+    }
+
+
+    #nav {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        right: 0;
+
+
+        .bar {
+            box-sizing: border-box;
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 4px;
+            padding-left: 8px;
+            min-width: 0;
+
+
+            .ga {
+                height: 48px;
+                vertical-align: middle;
+                align-items: center;
+                white-space: nowrap;
+                display: flex;
+                flex: 1 1 auto;
+                overflow: hidden;
+                padding-right: 15px;
+                position: relative;
+
+
+                .gb_ad {
+                    margin-bottom: 0px;
+                    display: inline-block;
+                    font-size: 20px;
+                    line-height: 48px;
+                    overflow: hidden;
+                    padding-left: 16px;
+                    position: relative;
+                    text-overflow: ellipsis;
+                    top: 2px;
+                    flex: 1 1 auto;
+                }
+            }
+
+
+            .gb {
+                box-sizing: border-box;
+                height: 48px;
+                line-height: normal;
+                padding: 0 4px;
+                padding-left: 0;
+                padding-right: 5%;
+                flex: 0 0 auto;
+                justify-content: flex-end;
+
+
+                .gc {
+                    font-family: arial,sans-serif;
+                    line-height: normal;
+                    padding-right: 15px;
+                    display: block;
+
+
+                    .gd {
+                        display: inline-block;
+                        padding-left: 7px;
+                        padding-right: 7px;
+                        text-decoration: none;
+                        line-height: 24px;
+                        outline: none;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        color: black;
+
+
+                        a {
+                            display: inline-block;
+                            padding-left: 7px;
+                            padding-right: 7px;
+                            text-decoration: none;
+                            line-height: 24px;
+                            outline: none;
+                            vertical-align: middle;
+                            cursor: pointer;
+                            color: black;
+                            img {
+                                transition: all 0.5s ease-in-out;
+                            }
+
+
+                            p{
+                                display: none;
+                                transition: all 0.5s ease-in-out;
+                            }
+                        }
+
+                        a:hover{
+                            opacity: .85;
+                            text-decoration: underline;
+
+
+                            p{
+                                display: block;
+                                transition: all 0.5s ease-in-out;
+                            }
+
+
+                            img{
+                                display: none;
+                                transition: all 0.5s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    #ntp-contents {
+        top: 147px;
+        display: block;
+        flex-direction: column;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        bottom: 20px;
+
+        #logo {
+            flex-shrink: 0;
+            min-height: fit-content;
+            position: relative;
+        }
+
+        #logo-image {
+            display: block;
+            background-image: url("https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 92px;
+            left: calc(50% - 280px/2);
+            position: absolute;
+            width: 300px;
+
+            .logo-subtext {
+                color: #4285f4;
+                font: 16px/16px roboto-regular, arial, sans-serif;
+                left: 215px;
+                position: relative;
+                top: 76px;
+                white-space: nowrap;
+            }
+        }
+    }
+
+
+    #realbox-container {
+        margin: 0 auto 0 auto;
+        top: 120px;
+        position: absolute;
+        min-width: 410px;
+        width: 560px;
+        left: calc(50% - 540px/2);
+        flex-shrink: 0;
+
+        #riw {
+            background-color: rgb(225,225,225);
+            width: 560px;
+            height: 44px;
+            position: absolute;
+            font-size: 18px;
+            border-color: black;
+            border-bottom-left-radius: calc(40px/2);
+            border-bottom-right-radius: calc(40px/2);
+            border-top-left-radius: calc(40px/2);
+            border-top-right-radius: calc(40px/2);
+            z-index: 0;
+
+            form input[type="text"] {
+                padding-left: 30px;
+                padding-right: 10px;
+                width: 470px;
+                height: 37px;
+                position: absolute;
+                background-color: transparent;
+                border-color: transparent;
+                font-size: 17px;
+                color: black;
+                z-index: 1;
+            }
+
+            #Submit {
+                background-color: rgb(225,225,225);
+                left: calc(50% + 480px/2);
+                margin-top: 7px;
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                font-size: 16px;
+                border: none;
+                background-image: url("search.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                cursor: pointer;
+                z-index: 2
+            }
+
+            #GS {
+                background-color: rgb(225,225,225);
+                left: calc(50% - 400px/2);
+                margin-top: 80px;
+                height: 40px;
+                width: 160px;
+                position: relative;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+                z-index: 2;
+                border-bottom-left-radius: calc(20px/2);
+                border-bottom-right-radius: calc(20px/2);
+                border-top-left-radius: calc(20px/2);
+                border-top-right-radius: calc(20px/2);
+            }
+
+            #IFL {
+                background-color: rgb(225,225,225);
+                left: calc(50% - 250px/2);
+                margin-top: 30px;
+                height: 40px;
+                width: 160px;
+                position: relative;
+                font-size: 12px;
+                border: none;
+                cursor: pointer;
+                z-index: 2;
+                border-bottom-left-radius: calc(20px/2);
+                border-bottom-right-radius: calc(20px/2);
+                border-top-left-radius: calc(20px/2);
+                border-top-right-radius: calc(20px/2);
+            }
+
+            #GS:hover , #IFL:hover {
+                background-color: rgb(200,200,200);
+            }
+        }
+    }
+}
